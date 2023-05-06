@@ -19,7 +19,6 @@ body {
     border-style: solid;
 }
 
-   
 
 .menu {
     height: 40px;
@@ -39,11 +38,14 @@ body {
     color: crimson;
     padding-bottom: 15px;
     margin-left: 20px;
+    text-align: center;
 }
 
 .info {
-    max-width: 800px;
-    margin-left: 20px;
+    margin-left: 520px;
+    width: 800px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .info h3 {
@@ -58,27 +60,40 @@ body {
     padding-bottom: 10px;
 }
 
+.links {
+    text-align: center;
+}
+
+
+.links img {
+    width: 100px;
+}
+
 .contato {
     color: crimson;
-}
-
-.contato  {
     text-align: center;
-    padding-bottom: 20px;
 }
 
-input, button {
+.contato h1 {
+    margin-bottom: 15px;
+}
+
+button {
     margin-top: 10px;
-    width: 70%;
+    width: 70em;
 }
 
 #email {
     height: 20px;
+    width: 70em;
+    margin-bottom: 15px;
 }
 
 #mensagem {
-    height: 70px;
+    height: 100px;
+    width: 70em;
 }
+
 
 .contato button {
     padding: 10px;
